@@ -1,0 +1,27 @@
+Problem Clients are Facing:
+	Client (PowerCo) is a major gas and electricity utility,
+•	supplies to corporate, SME and residential customers.
+Significant churn problem:
+•	driven by power-liberalization of the energy market in Europe, problem is largest in SME segment.
+•	
+Clients Hypothesis:
+•	Churn is driven by customer price sensitivity.
+
+Clients Plan:
+•	SME division head suggests that offering customers at high propensity to churn a 20% discount might be effective.
+
+Questions for us?
+•	Is it possible to predict customers likely to churn using a predictive model?
+•	Is the churn driven by the customers’ price sensitivities? How should the team go about testing this hypothesis?
+•	What data might be needed from the client to test our hypothesis?
+•	What analytical models you would use to test such a hypothesis?
+
+Possible Solution:
+To test the hypothesis of whether the churn is driven by the customers’ price sensitivity, we would need to model churn probability of customer and derive the effect of prices on churn rate. For this purpose, we need following data sets:
+•	Customer data – should include characteristics of each client, for eg, industry, historical electric consumption, date joined etc.
+•	Churn data – should include the details of churned customer.
+•	Historic price data – should include the prices of the client changes to each customer for both electricity and gas at granular time intervals.  
+Once we have these datasets, we would need to engineer features based on the data that we obtain, and build a binary classification model (eg, Logistic Regression, Random Forest, Gradient Boosted Machine)
+Based on the complexity, explanability, and the accuracy of the models, we can pick the correct model.
+Once we pick our model, we would be able to understand the direction and magnitude of the impact of prices on churn rates, as well as relative importance of prices compared to other factors. 
+Furthermore, the model would allow us to size the business impact of the client’s proposed discounting strategy. 
