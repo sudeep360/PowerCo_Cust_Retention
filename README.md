@@ -97,4 +97,13 @@ With the help of these data we have managed to perform the followings steps:
  
 Task 3: Feature Engineering and Modelling
 
+Now as we have a good understanding of the data, and more confident with the dataset. We are digging deeper to the business problem.
+We first seen the average price change across periods as well as max price change over periods and month.
+Afterwards, we moved to calculationg churn for those periods, where we concluded:
+" That companies who have only been a client for 4 or less months are much more likely to churn compared to companies that have been a client for longer. 
+Interestingly, the difference between 4 and 5 months is about 4%, which represents a large jump in likelihood for a customer to churn compared to the other differences between ordered tenure values. 
+Perhaps this reveals that getting a customer to over 4 months tenure is actually a large milestone with respect to keeping them as a long term customer. "
+
+
+
 
